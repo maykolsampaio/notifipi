@@ -1,3 +1,8 @@
 from django.shortcuts import render
+from rest_framework import generics
+from .models import Aviso
+from .serializers import AvisoSerializer
 
-# Create your views here.
+class AvisoList(generics.ListCreateAPIView):
+
+    serializer_class = AvisoSerializer

@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_google.apps.DjangoGoogleConfig',
 ]
 
 MIDDLEWARE = [
@@ -70,6 +71,14 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'notifpi.wsgi.application'
+
+
+#google-django
+GOOGLE_CLIENT_SECRET_FILE = os.path.join(BASE_DIR, 'credentials.json')
+GOOGLE_AUTH_SCOPES = [
+    'https://www.googleapis.com/auth/userinfo.email',
+    'https://www.googleapis.com/auth/userinfo.profile',
+]
 
 
 # Database

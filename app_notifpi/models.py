@@ -2,7 +2,6 @@ from django.conf import settings
 from django.db import models
 from django.utils import timezone
 
-
 class Aviso(models.Model):
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     title = models.CharField(max_length=200)
@@ -10,6 +9,8 @@ class Aviso(models.Model):
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
     expiration_date = models.DateTimeField(blank=True, null=True)
+    audio_aviso = models.TextField(blank=True, null=True)
+    
 
     def publish(self):
         self.published_date = timezone.now()
