@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mercurial-idiom-254220",
+  "private_key_id": "b82da95a553eb18f53db915dcde32682f8df4178",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCa963RSPDt0mZH\nTZb6lnFdntwG/5LDNdyqqmxxyskRd4al1jsoiMUkDUlXPW7ZAW/0+v8xGhwQpbZl\nJK+GvbdwGb1+PRC9Mv6OO7xMhoIj9RhZn1va8xXapfy1Qxz8rzxVMVetTxu2PSdT\n1XuNWz9aTBB6Pat8/AxV+QOOoBOiUPH+jlSz/mLHy679Y6XAHG+yds4A1i5rywc+\n28sXuIRIOAYzyQo0l733DiBv98wEr+q4IEvfEXo+Wfp/O+xXSDioi529vY09c8uP\nE901jjjja+lgtcZIwQdkBI1UQrgSC5M0oK0unsMmqhhdII3ngrbHf63PB9yWc8pW\nOAb2hehhAgMBAAECggEAAt75fz9GM2m/+lczfQis01VeRy+Un6g6TTEjbtzual6Y\nBdouYLsJR/iKYM2NuwMoo1XDxObybn6GHraWHT1w42ierEg5AgBVW1DmVVadR57t\nU2USlb+w1SBZH7SSxL2sX6RZNv1DCqvJtDxoHGonMNGS8T4o6gOzaM5YZLE42+Ye\nTDrmEk55HkBxn5X1sR4QdCmTR+9ioptMUYbXD6qHCUpY9HbwA/NA67JP2tAE39vw\nEbHMrAMDCwq1xrs5At2lBPAU/aiQof6+jHuXDNmu1Uzv8ILvBh4NXXIr+xiWfUcO\nHVR1Gb2coAXCHEktqJzb08zI+oSjOcucNk/+3b5soQKBgQDIv2RpTDsJcKyJanbE\n5D+kNN80lk8FLGn+cYl92QHwBD0K9dreQowY6/iGceegC/kuboddZ/1A6ShBEcpW\nmVTDCZSfINP0V0lJdL3eBBc73L5H80ABPy2s2ilb6jRhPLXk8oJxXl6aKXjv171N\ndMYJjB2DBad1LqX0SjNWaz6EiQKBgQDFnqJ+dgVS7rSgYmnitHxskBrumFD+lqXA\nEAUvO8cfdguWHIjCgwyw5W9OD/D2aFw6aipWNITWnHn6EEkxOI8oMEkQKvB+Y+zl\ntsnHTARkGOT2MqBIT/JFvE99MQIXm8PMm+MtQjPIo9qUJdB7EmCn5Gvyo11vkn/b\neZQPp5N/GQKBgQCuz+wyvc1TRSkaaPmQL2s0JU6Rzqp1SN3sUxZ13rmPN0Go/7te\nfPje4u4CtcIMXyDYzCtYraueEOua7lES5GcpiHhBsiagyjnpm52TbmCFIo8YvLzp\n2Qh/U2NcxTBj1KhY/M2Wx6T9/ktwIKCaiKvDuJ4icJQIuVyOxOa7xJwmcQKBgQDB\nQmjQ2WRNfUnBi1zXqv//P1JHQUf8IaFI2aHoVkJePxgHnjIUXwqbOFUId0iEAP0o\n10g987BxHKeg6Cpb6178w3PATu3P/LLg10gvEeU9aqcHKe1bqmtYzVbDLJlKMzdh\nMpYRXau8rJkGxpBCu28w4Y67xA2NHizRmu0z/gKdiQKBgQCE8J64vzuPHw5HrmcZ\nLbfdT2+b/59JChDXlPGDJ/f/tiMH1fHlpElGStfwYFY1NkKXIvZVrmGti3rq5LyS\nRHI1SMv4r8XUZMjhjLYvyi4pUGn6iu7mPkcHySX+/lZw1UXHtuDCZ5T4IAQSlh0/\nrgG/PeDjUf0cqNGnpdsRAIoHgg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "mercurial-idiom-254220@appspot.gserviceaccount.com",
+  "client_id": "108178877372414698995",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mercurial-idiom-254220%40appspot.gserviceaccount.com"
+}

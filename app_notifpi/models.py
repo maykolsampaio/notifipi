@@ -1,6 +1,10 @@
 from django.conf import settings
 from django.db import models
 from django.utils import timezone
+from django import forms
+from gdstorage.storage import GoogleDriveStorage
+
+gd_storage=GoogleDriveStorage()
 
 class Aviso(models.Model):
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
@@ -9,7 +13,8 @@ class Aviso(models.Model):
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
     expiration_date = models.DateTimeField(blank=True, null=True)
-    audio_aviso = models.TextField(blank=True, null=True)
+    audio_aviso = models.FileField(blank=True, null=True,storage=gd_storage,upload_to="audio/")
+
     
 
     def publish(self):

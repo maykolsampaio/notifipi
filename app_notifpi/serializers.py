@@ -5,4 +5,4 @@ class AvisoSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Aviso
-        fields = ('audio_descrip')
+        fields = ('audio_aviso')
