@@ -1,7 +1,6 @@
 from django.conf import settings
 from django.db import models
 from django.utils import timezone
-from django import forms
 from gdstorage.storage import GoogleDriveStorage
 
 gd_storage=GoogleDriveStorage()
@@ -15,7 +14,9 @@ class Aviso(models.Model):
     expiration_date = models.DateTimeField(blank=True, null=True)
     audio_aviso = models.FileField(blank=True, null=True,storage=gd_storage,upload_to="audio/")
 
-    
+    class Meta:
+
+        db_table = 'audio_aviso'
 
     def publish(self):
         self.published_date = timezone.now()
