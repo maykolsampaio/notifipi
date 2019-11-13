@@ -5,11 +5,13 @@ from rest_framework.parsers import FileUploadParser
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework import status
+from django.db.models.functions import Lower
 
 
 class AvisoList(generics.ListCreateAPIView):
     serializer_class = AvisoSerializer
     queryset = Aviso.objects.all()
+    queryset = Aviso.objects.order_by(Lower('published_date').desc())
 
 
 class FileUploadView(APIView):
