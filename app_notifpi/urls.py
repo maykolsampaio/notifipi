@@ -7,4 +7,3 @@ urlpatterns = [
     path('', FileUploadView.as_view()),
     url(r'^aviso/$', views.AvisoList.as_view(), name='Aviso-list'),
 ]
-

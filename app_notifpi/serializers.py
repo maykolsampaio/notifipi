@@ -7,3 +7,4 @@ class AvisoSerializer(serializers.ModelSerializer):
 
         model = Aviso
         fields = '__all__'
+
