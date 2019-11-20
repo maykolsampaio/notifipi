@@ -11,7 +11,7 @@ from django.db.models.functions import Lower
 class AvisoList(generics.ListCreateAPIView):
     serializer_class = AvisoSerializer
     queryset = Aviso.objects.all()
-    queryset = Aviso.objects.order_by(Lower('published_date').desc())
+    queryset = Aviso.objects.order_by(Lower('expiration_date').desc())
 
 
 class FileUploadView(APIView):
